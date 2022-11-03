@@ -2,7 +2,7 @@
 
 namespace xunit_example.Business
 {
-    internal class ShippingBusiness
+    public class ShippingBusiness
     {
         private readonly IShippingCalculateService _shippingCalculateService;
         public ShippingBusiness(IShippingCalculateService shippingCalculateService)

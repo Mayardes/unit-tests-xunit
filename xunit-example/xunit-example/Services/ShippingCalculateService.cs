@@ -1,6 +1,6 @@
 ﻿namespace xunit_example.Services
 {
-    internal class ShippingCalculateService : IShippingCalculateService
+    public class ShippingCalculateService : IShippingCalculateService
     {
         public decimal Calculate(int distanceKm)
         {
